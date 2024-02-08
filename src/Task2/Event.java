@@ -1,4 +1,4 @@
-package Exceptions2;
+package Task2;
 
 public class Event {
     private String title;
@@ -10,27 +10,21 @@ public class Event {
         this.releaseYear = releaseYear;
         this.age = age;
     }
-
     public String getTitle() {
         return title;
     }
-
     public void setTitle(String title) {
         this.title = title;
     }
-
     public int getReleaseYear() {
         return releaseYear;
     }
-
     public void setReleaseYear(int releaseYear) {
         this.releaseYear = releaseYear;
     }
-
     public int getAge() {
         return age;
     }
-
     public void setAge(int age) {
         this.age = age;
     }

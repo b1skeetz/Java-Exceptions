@@ -1,9 +1,6 @@
-package Exceptions3;
-
-import Exceptions.UserNotFoundException;
+package Task3;
 
 public class Names {
-
     private String[] names;
 
     public Names(String[] names) {

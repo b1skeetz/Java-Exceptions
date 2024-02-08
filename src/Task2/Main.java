@@ -1,4 +1,4 @@
-package Exceptions2;
+package Task2;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,7 +10,6 @@ public class Main {
         }
         System.out.println("Все события корректны");
     }
-
     public static Movie[] getMovies() {
         return new Movie[]{
                 new Movie("Начало", 2010, 16),
@@ -20,7 +19,6 @@ public class Main {
                 new Movie("Мстители", 2008, 12),
         };
     }
-
     public static Theatre[] getTheatres() {
         return new Theatre[]{
                 new Theatre("Анна Каренина", 2017, 16),
